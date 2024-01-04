@@ -1,0 +1,28 @@
+{
+  "name": "new-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "gsap": "^3.12.4",
+    "jquery": "^3.7.1",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "scrollmagic": "^2.0.8",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.29"
+  }
+}
