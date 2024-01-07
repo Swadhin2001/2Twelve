@@ -17,8 +17,8 @@ function about() {
       <div className="main-root">
         <SideBoxLeft pageName="About" textStroke="About Us" />
         <div id="dsn-scrollbar">
-          <div class=" inner-content">
-            <div class="wrapper ">
+          <div className=" inner-content">
+            <div className="wrapper ">
               {/* <SliderParallax/> */}
             </div>
           </div>
@@ -26,7 +26,9 @@ function about() {
         <div className="inner-content">
 
           <AboutHeader upperHeading="Exceptional" lowerHeading="Digital Experiences" about="Customers are ever-evolving in their wants. Only a digital agency with a strong handle on the latest trends and exceptional creativity can deliver in this environment." />
-          <AboutSlider />
+          <div className="wrapper">
+            <AboutSlider />
+          </div>
           <AboutService />
           <Testimonials />
           <AboutNextPage upLetterStroke="Questions?" downLetterStroke="Let Us Know" />

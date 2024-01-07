@@ -1797,7 +1797,7 @@ body:not(.v-dark) .site-header .main-logo .dark-logo {
 }
 .lest-icon li:before {
   content: "";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome\ 5 Free";
   font-weight: 400;
   color: var(--theme-color);
   font-size: 16px;

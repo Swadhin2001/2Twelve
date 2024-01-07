@@ -9,6 +9,11 @@ import BlogbgBanner from '@/components/BlogbgBanner'
 import image2 from '@/assets/yAdQZNexuSBuazghqy7Tdc.jpeg'
 import BlogSection from '@/components/BlogSection'
 import Footer from '@/components/Footer'
+import BlogSlider from '@/components/BlogSlider'
+import sliderImage1 from '@/assets/mtqa615g_peach-fuzz-_625x300_09_December_23.webp'
+import sliderImage2 from '@/assets/pantone-peach-fuzz-color-of-the-year-2023-designboom-01.webp'
+import sliderImage3 from '@/assets/pantone-peach-fuzz-color-of-the-year-2023-designboom-03.webp'
+import sliderImage4 from '@/assets/Pantone-13-1023-Peach-Fuzz-1.jpg'
 
 
 function blog() {
@@ -19,7 +24,7 @@ function blog() {
       <div className="main-root">
         <SideBoxLeft pageName="Blog" textStroke="Creative. Digital. Ecommerce. Events." />
         <div id="dsn-scrollbar">
-          <div class="inner-content">
+          <div className="inner-content">
             <BlogHeader image1={image1} image2={image1} image3={image1} image4={image1} upperHeading="Heard of Pantone Color of the Year?" lowerHeading="It Has Just Been Released" />
             <div className="wrapper">
               <div className="intro-project dsn-container section-margin">
@@ -104,7 +109,8 @@ function blog() {
 
               </fragment>} />
 
-              <h1>Blog Slider</h1>
+              {/* <h1>Blog Slider</h1> */}
+              <BlogSlider image1 = {sliderImage1} image2 = {sliderImage2} image3 = {sliderImage3} image4 = {sliderImage4}/>
 
               <BlogSection heading="Utility for Marketing Agencies" about={<fragment>
                 <>
@@ -142,7 +148,7 @@ function blog() {
                 </>
 
               </fragment>} />
-              <div class="col-lg-12 mt-50">
+              <div className="col-lg-12 mt-50">
                 <BlogIntro heading="Versatility" about={<fragment>
                   <>
                     Despite being designated as the color of the year, the chosen hue often
@@ -156,7 +162,7 @@ function blog() {
                   </>
                 </fragment>} />
               </div>
-              <div class="col-lg-12 mt-50">
+              <div className="col-lg-12 mt-50">
                 <BlogIntro heading="Conclusion" about={<fragment>
                   <>
                     In conclusion, the Pantone Color of the Year plays a pivotal role in shaping

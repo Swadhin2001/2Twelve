@@ -23,7 +23,7 @@ function AboutService() {
                     </h2>
                 </div>
                 <div
-                    className="d-grid dsn-isotope grid-md-2 grid-lg-3"
+                    className="d-grid dsn-isotope grid-md-2 grid-lg-3 custom-dsn-isotope"
                     data-dsn-item=".service-item"
                 >
                     <Card cardImage= {cardImage1} cardHeading = "Brand identity" cardAbout = "We can help you build the visual elements of your brand."/>

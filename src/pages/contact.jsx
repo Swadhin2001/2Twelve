@@ -16,8 +16,8 @@ function contact() {
       <div className="main-root">
       <SideBoxLeft pageName = "Contact" textStroke = "Contact Us"/>
         <div id="dsn-scrollbar">
-            <div class=" inner-content">
-                <div class="wrapper ">
+            <div className=" inner-content">
+                <div className="wrapper ">
                 </div>
             </div>
         </div>

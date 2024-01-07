@@ -128,10 +128,10 @@ function SliderParallax() {
                         </div>
                     </div>
                     <div className="control-nav p-absolute w-100  d-flex dsn-container align-items-center  justify-content-between ">
-                        {/* <div class="dsn-pagination p-relative w-50">
-                              <div class="slider-current-index">01</div>
-                              <div class="swiper-pagination-control"></div>
-                              <div class="slider-total-index"></div>
+                        {/* <div className="dsn-pagination p-relative w-50">
+                              <div className="slider-current-index">01</div>
+                              <div className="swiper-pagination-control"></div>
+                              <div className="slider-total-index"></div>
                           </div> */}
                         <div className="d-flex">
                             <div className="prev-container">

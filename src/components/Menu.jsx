@@ -6,8 +6,8 @@ import Nav from './Nav'
 function Menu() {
     return (
         <>
-            <div class="site-header dsn-load-animate dsn-container">
-                <div class="extend-container d-flex w-100 align-items-baseline justify-content-between align-items-end">
+            <div className="site-header dsn-load-animate dsn-container">
+                <div className="extend-container d-flex w-100 align-items-baseline justify-content-between align-items-end">
                     <MenuIcon />
                     <Logo />
                     <Nav />

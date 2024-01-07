@@ -37,7 +37,7 @@ function AboutSection() {
                                 <li>Ecommerce</li>
                                 <li>Events</li>
                             </ul>
-                            {/* <a href="#" class="link-custom v-light image-zoom mt-30" data-dsn="parallax">
+                            {/* <a href="#" className="link-custom v-light image-zoom mt-30" data-dsn="parallax">
                                   About Us
                               </a> */}
                         </div>

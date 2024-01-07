@@ -28,7 +28,7 @@ function ServiceSection() {
                     </ul>
                 </div>
                 <div
-                    className="d-grid grid-md-2 grid-lg-3 dsn-isotope grid"
+                    className="d-grid grid-md-2 grid-lg-3 dsn-isotope grid custom-dsn-isotope"
                     data-dsn-item=".service-item"
                 >
                     <div className="service-item">

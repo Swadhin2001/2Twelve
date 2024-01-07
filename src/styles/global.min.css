@@ -3967,7 +3967,7 @@ a.link-hover:hover {
 }
 
 .filtering-t button.active:after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome\ 5 Free";
     content: "";
     font-weight: 900;
     position: absolute;

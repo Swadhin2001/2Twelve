@@ -9,6 +9,11 @@ import image1 from '@/assets/CreativeAgencies.jpg'
 import image2 from '@/assets/creativeAgencies_1.jpg'
 import BlogSection from '@/components/BlogSection'
 import Footer from '@/components/Footer'
+import BlogSlider from '@/components/BlogSlider'
+import sliderImage1 from '@/assets/fredrick-suwandi-csXTAyTiESo-unsplash.jpg'
+import sliderImage2 from '@/assets/dennis-maliepaard-7b7wSvGn2W4-unsplash.jpg'
+import sliderImage3 from '@/assets/john-cameron-XkpmQnVhJqI-unsplash.jpg'
+import sliderImage4 from '@/assets/florian-wehde-iVW7mZPwd4g-unsplash.jpg'
 
 function blog_1() {
   return (
@@ -18,7 +23,7 @@ function blog_1() {
       <div className="main-root">
         <SideBoxLeft pageName="Blog" textStroke="Creative. Digital. Ecommerce. Events." />
         <div id="dsn-scrollbar">
-          <div class="inner-content">
+          <div className="inner-content">
             <BlogHeader image1={image1} image2={image1} image3={image1} image4={image1} upperHeading="Heard of Pantone Color of the Year?" lowerHeading="It Has Just Been Released" />
 
             <div className="wrapper">
@@ -47,9 +52,9 @@ function blog_1() {
                   </span>
                 </>
               </fragment>} />
-              <h1> Slider Section</h1>
 
-              <div class="col-lg-12">
+              <BlogSlider image1 = {sliderImage1} image2 = {sliderImage2} image3 = {sliderImage3} image4 = {sliderImage4}/>
+              <div className="col-lg-12 mt-50">
                 <BlogIntro heading="Testimonial" about={<fragment>
                   <>
                     Testimonials are a great way to snag customers. Here, you share other
@@ -73,7 +78,7 @@ function blog_1() {
                 </fragment>} />
               </div>
 
-              <div class="col-lg-12 mt-50">
+              <div className="col-lg-12 mt-50">
                 <BlogIntro heading="Offer-Based" about={<fragment>
                   <>
                     Many people are looking for great deals, discounts, or rebates. So, these ad
@@ -93,7 +98,7 @@ function blog_1() {
                 </fragment>} />
               </div>
 
-              <div class="col-lg-12 mt-50">
+              <div className="col-lg-12 mt-50">
                 <BlogIntro heading="Appeal to ego " about={<fragment>
                   <>
                     People want to hear that they are special. So, these ad copies massage their
@@ -187,7 +192,7 @@ function blog_1() {
               </div>
 
 
-              <div class="col-lg-12 mt-50">
+              <div className="col-lg-12 mt-50">
                 <BlogIntro heading="FOMO (Fear of Missing Out)" about={<fragment>
                   <>
                     FOMO ads try to create a sense of urgency and exclusivity. It is designed to
@@ -203,7 +208,7 @@ function blog_1() {
                 </fragment>} />
               </div>
 
-              <div class="col-lg-12 mt-50">
+              <div className="col-lg-12 mt-50">
                 <BlogIntro heading="Question-Answer" about={<fragment>
                   <>
                     Question-answer format ad copies are relatively simple. They pose a common
@@ -233,7 +238,7 @@ function blog_1() {
                 </fragment>} />
               </div>
 
-              <div class="col-lg-12 mt-50">
+              <div className="col-lg-12 mt-50">
                 <BlogIntro heading="Final words" about={<fragment>
                   <>
                     <span style={{ marginBottom: "2rem" }}>
